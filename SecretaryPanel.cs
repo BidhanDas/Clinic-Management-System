@@ -34,5 +34,21 @@ namespace Clinic_Management_System
             patientProfiles.ShowDialog();
             Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Hide();
+            CreateReservation createReservation = new CreateReservation(account_id);
+            createReservation.ShowDialog();
+            Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Hide();
+            ViewReservations viewReservations = new ViewReservations(account_id);
+            viewReservations.ShowDialog();
+            Show();
+        }
     }
 }
