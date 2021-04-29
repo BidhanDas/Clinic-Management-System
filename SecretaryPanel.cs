@@ -18,5 +18,21 @@ namespace Clinic_Management_System
             InitializeComponent();
             account_id = id;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Hide();
+            EditProfile editProfile = new EditProfile(account_id);
+            editProfile.ShowDialog();
+            Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            PatientProfiles patientProfiles = new PatientProfiles();
+            patientProfiles.ShowDialog();
+            Show();
+        }
     }
 }
