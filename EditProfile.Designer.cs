@@ -58,7 +58,7 @@ namespace Clinic_Management_System
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(188, 438);
+            this.button4.Location = new System.Drawing.Point(260, 447);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(150, 45);
@@ -204,7 +204,7 @@ namespace Clinic_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 536);
+            this.ClientSize = new System.Drawing.Size(624, 536);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.label15);
@@ -223,7 +223,8 @@ namespace Clinic_Management_System
             this.Controls.Add(this.label22);
             this.Controls.Add(this.textBox1);
             this.Name = "EditProfile";
-            this.Text = "EditProfile";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Edit Profile";
             this.Load += new System.EventHandler(this.EditProfile_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

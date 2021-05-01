@@ -93,15 +93,19 @@ namespace Clinic_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            command = con.CreateCommand();
-            command.CommandText = "DELETE FROM reservation WHERE reservation_id = @id";
-            command.Parameters.AddWithValue("@id", textBox1.Text);
-            con.Open();
-            if (command.ExecuteNonQuery() > 0)
-                MessageBox.Show("Reservation was deleted!");
-            else
-                MessageBox.Show("Failed to delete the reservation!");
-            con.Close();
+            if (listBox1.SelectedIndex < 0 || listBox1.SelectedIndex >= listBox1.Items.Count)
+            {
+                MessageBox.Show("Please select a reservation!");
+                return;
+            }
+
+            Reservation res = (Reservation)listBox1.SelectedItem;
+
+            Hide();
+            EditReservation editReservation = new EditReservation(res);
+            editReservation.ShowDialog();
+            updateList();
+            Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

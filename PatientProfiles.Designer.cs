@@ -333,7 +333,8 @@ namespace Clinic_Management_System
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "PatientProfiles";
-            this.Text = "PatientProfiles";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Patient Profiles";
             this.Load += new System.EventHandler(this.PatientProfiles_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();

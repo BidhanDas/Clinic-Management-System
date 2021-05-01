@@ -32,17 +32,6 @@ namespace Clinic_Management_System
 
             if (result != null)
             {
-                //Authenticated
-                if (textBox1.Text == "admin")
-                {
-                    //Admin Panel
-                    Hide();
-                    Adminstration adminPanel = new Adminstration();
-                    adminPanel.ShowDialog();
-                    Show();
-                }
-                else
-                {
                     con.Open();
                     command.CommandText = "SELECT account_id, account_type FROM account WHERE account_user_id=@user_id";
                     command.Parameters.AddWithValue("@user_id", result.ToString());
@@ -57,7 +46,6 @@ namespace Clinic_Management_System
 
                         if (account_type == 0)
                         {
-                            //Secretary Panel
                             Hide();
                             SecretaryPanel secretaryPanel = new SecretaryPanel(account_id);
                             secretaryPanel.ShowDialog();
@@ -65,25 +53,37 @@ namespace Clinic_Management_System
                         }
                         else if (account_type == 1)
                         {
-                            //Doctor Panel
                             Hide();
                             DoctorPanel doctorPanel = new DoctorPanel(account_id);
                             doctorPanel.ShowDialog();
                             Show();
                         }
                     }
-                }
+                
             }
             else
             {
-                //Authentication Error
                 MessageBox.Show("Authentication Failed!");
+                textBox1.Text = textBox2.Text = string.Empty;
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-           // utils.createAdmin("123");
+
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Adminstration ad = new Adminstration();
+            ad.ShowDialog();
+            Show();
         }
     }
 }

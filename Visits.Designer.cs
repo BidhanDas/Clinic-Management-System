@@ -360,6 +360,7 @@ namespace Clinic_Management_System
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Name = "Visits";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Visits";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

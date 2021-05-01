@@ -47,23 +47,23 @@ namespace Clinic_Management_System
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(549, 370);
+            this.button2.Location = new System.Drawing.Point(299, 401);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(127, 60);
             this.button2.TabIndex = 54;
-            this.button2.Text = "Delete Reservation";
+            this.button2.Text = "Delete";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(334, 370);
+            this.button1.Location = new System.Drawing.Point(485, 401);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(127, 60);
             this.button1.TabIndex = 53;
-            this.button1.Text = "Edit Reservation";
+            this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -71,7 +71,7 @@ namespace Clinic_Management_System
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(392, 280);
+            this.comboBox1.Location = new System.Drawing.Point(299, 283);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(313, 28);
@@ -79,7 +79,7 @@ namespace Clinic_Management_System
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(394, 246);
+            this.dateTimePicker1.Location = new System.Drawing.Point(299, 236);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(312, 26);
@@ -88,7 +88,7 @@ namespace Clinic_Management_System
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(394, 317);
+            this.textBox4.Location = new System.Drawing.Point(299, 338);
             this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
@@ -98,7 +98,7 @@ namespace Clinic_Management_System
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(304, 321);
+            this.label8.Location = new System.Drawing.Point(218, 344);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(48, 20);
             this.label8.TabIndex = 49;
@@ -107,7 +107,7 @@ namespace Clinic_Management_System
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(304, 286);
+            this.label7.Location = new System.Drawing.Point(191, 283);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(75, 20);
             this.label7.TabIndex = 48;
@@ -116,7 +116,7 @@ namespace Clinic_Management_System
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(304, 250);
+            this.label6.Location = new System.Drawing.Point(184, 236);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(82, 20);
             this.label6.TabIndex = 47;
@@ -124,7 +124,7 @@ namespace Clinic_Management_System
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(392, 211);
+            this.textBox3.Location = new System.Drawing.Point(299, 188);
             this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
@@ -134,7 +134,7 @@ namespace Clinic_Management_System
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(304, 215);
+            this.label5.Location = new System.Drawing.Point(185, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 20);
             this.label5.TabIndex = 45;
@@ -142,7 +142,7 @@ namespace Clinic_Management_System
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(392, 176);
+            this.textBox2.Location = new System.Drawing.Point(299, 128);
             this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
@@ -152,7 +152,7 @@ namespace Clinic_Management_System
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(304, 180);
+            this.label4.Location = new System.Drawing.Point(203, 134);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(63, 20);
             this.label4.TabIndex = 43;
@@ -160,7 +160,7 @@ namespace Clinic_Management_System
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(392, 141);
+            this.textBox1.Location = new System.Drawing.Point(299, 66);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -170,7 +170,7 @@ namespace Clinic_Management_System
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(304, 145);
+            this.label3.Location = new System.Drawing.Point(236, 66);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(30, 20);
             this.label3.TabIndex = 41;
@@ -180,7 +180,7 @@ namespace Clinic_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1010, 570);
+            this.ClientSize = new System.Drawing.Size(810, 570);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
@@ -196,7 +196,8 @@ namespace Clinic_Management_System
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
             this.Name = "EditReservation";
-            this.Text = "EditReservation";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Edit Reservation";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -39,10 +39,11 @@ namespace Clinic_Management_System
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(305, 135);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(12, 117);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(191, 50);
+            this.button2.Size = new System.Drawing.Size(234, 50);
             this.button2.TabIndex = 7;
             this.button2.Text = "Patient Profiles";
             this.button2.UseVisualStyleBackColor = true;
@@ -50,10 +51,11 @@ namespace Clinic_Management_System
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(305, 54);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 39);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(191, 50);
+            this.button1.Size = new System.Drawing.Size(234, 50);
             this.button1.TabIndex = 6;
             this.button1.Text = "Edit My Account";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,7 +66,7 @@ namespace Clinic_Management_System
             this.button3.Location = new System.Drawing.Point(29, 26);
             this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(129, 60);
+            this.button3.Size = new System.Drawing.Size(240, 60);
             this.button3.TabIndex = 3;
             this.button3.Text = "Create Reservation";
             this.button3.UseVisualStyleBackColor = true;
@@ -75,7 +77,7 @@ namespace Clinic_Management_System
             this.button4.Location = new System.Drawing.Point(29, 94);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(129, 60);
+            this.button4.Size = new System.Drawing.Size(240, 60);
             this.button4.TabIndex = 4;
             this.button4.Text = "View Reservations";
             this.button4.UseVisualStyleBackColor = true;
@@ -85,11 +87,12 @@ namespace Clinic_Management_System
             // 
             this.groupBox1.Controls.Add(this.button3);
             this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Location = new System.Drawing.Point(305, 226);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(475, 13);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.groupBox1.Size = new System.Drawing.Size(191, 170);
+            this.groupBox1.Size = new System.Drawing.Size(313, 170);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Reservations";
@@ -103,7 +106,8 @@ namespace Clinic_Management_System
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Name = "SecretaryPanel";
-            this.Text = "SecretaryPanel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Secretary Home";
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 

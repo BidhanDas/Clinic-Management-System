@@ -35,10 +35,12 @@ namespace Clinic_Management_System
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(336, 221);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(247, 237);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 66);
+            this.button2.Size = new System.Drawing.Size(259, 66);
             this.button2.TabIndex = 3;
             this.button2.Text = "View Reservations";
             this.button2.UseVisualStyleBackColor = true;
@@ -46,12 +48,13 @@ namespace Clinic_Management_System
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(336, 164);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(247, 75);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 50);
+            this.button1.Size = new System.Drawing.Size(259, 65);
             this.button1.TabIndex = 2;
-            this.button1.Text = "Edit Account";
+            this.button1.Text = "Edit My Account";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -63,7 +66,8 @@ namespace Clinic_Management_System
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "DoctorPanel";
-            this.Text = "DoctorPanel";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Doctor Home";
             this.ResumeLayout(false);
 
         }

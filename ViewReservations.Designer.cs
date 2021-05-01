@@ -66,7 +66,7 @@ namespace Clinic_Management_System
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dateTimePicker1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(119, -16);
+            this.groupBox1.Location = new System.Drawing.Point(12, 13);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -261,7 +261,7 @@ namespace Clinic_Management_System
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.textBox2);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(588, -16);
+            this.groupBox2.Location = new System.Drawing.Point(480, 13);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -310,10 +310,10 @@ namespace Clinic_Management_System
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 20;
-            this.listBox1.Location = new System.Drawing.Point(119, 331);
+            this.listBox1.Location = new System.Drawing.Point(12, 361);
             this.listBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(811, 284);
+            this.listBox1.Size = new System.Drawing.Size(810, 204);
             this.listBox1.TabIndex = 14;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -321,12 +321,13 @@ namespace Clinic_Management_System
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1048, 624);
+            this.ClientSize = new System.Drawing.Size(876, 589);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.listBox1);
             this.Name = "ViewReservations";
-            this.Text = "ViewReservations";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Reservations";
             this.Load += new System.EventHandler(this.ViewReservations_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
