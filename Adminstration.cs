@@ -58,6 +58,8 @@ namespace Clinic_Management_System
                 if (command.ExecuteNonQuery() > 0)
                 {
                     MessageBox.Show("Account was successfully created!");
+                    con.Close();
+                    Hide();
                 }
                 else
                     MessageBox.Show("Error while creating the account!");

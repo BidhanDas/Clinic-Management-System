@@ -72,6 +72,7 @@ namespace Clinic_Management_System
                 MessageBox.Show("Failed to create the account!");
             con.Close();
             updateList("");
+            textBox1.Text = textBox2.Text = textBox3.Text= string.Empty;
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
