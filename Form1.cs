@@ -20,8 +20,7 @@ namespace Clinic_Management_System
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = Clinic_Management_System.Properties.Resources.connectionString;
-            SqlConnection con = new SqlConnection(connectionString);
+            SqlConnection con = new SqlConnection(Properties.Resources.connectionString);
             SqlCommand command = con.CreateCommand();
             command.CommandText = "SELECT user_id FROM [user] WHERE user_username=@username AND user_password=@password";
             command.Parameters.AddWithValue("@username", textBox1.Text);
